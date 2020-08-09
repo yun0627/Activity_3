@@ -5,8 +5,7 @@ public class b {
 	public static void main(String[] args) {
 		
 		String input;
-		int output;
-while (true) {		
+		int output;		
 System.out.println("Type in a message and press enter: ");
 
 Scanner userinput = new Scanner(System.in);
@@ -59,7 +58,6 @@ default:
 	System.out.println("Error: Invalid choice input.");
 break; 
 
-}
 }
 }
 }
